@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p class="title_name">Our Work</p>
+      <p class="description">We are added our featured works below</p>
+      <p id="line">&mdash;</p>
+      <div class="header_box">
+        <div class="row sign">
+          <div class="sign_centered_one">Project&nbsp;Name</div>
+          <div class="sign_centered_two">Facebook&nbsp;marketing</div>
+        </div>
+        <div class="row">
+          <img src="images/photo1.jpg" alt="" class="photo" />
+        </div>
+        <div class="row sign">
+          <div class="sign_centered_one">Project&nbsp;Name</div>
+          <div class="sign_centered_two">Landing&nbsp;page</div>
+        </div>
+        <div class="row">
+          <img src="images/photo5.jpg" alt="" class="photo" />
+        </div>
+        <div class="row">
+          <img src="images/photo3.png" alt="" class="photo" />
+        </div>
+        <div class="row sign">
+          <div class="sign_centered_one">Project&nbsp;Name</div>
+          <div class="sign_centered_two">Landing&nbsp;page</div>
+        </div>
+        <div class="row">
+          <img src="images/photo7.jpg" alt="" class="photo" />
+        </div>
+        <div class="row sign">
+          <div class="sign_centered_one">Project&nbsp;Name</div>
+          <div class="sign_centered_two">Facebook&nbsp;marketing</div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <p class="title_name">Get Your Free Facebook Analysis Now</p>
+      <p class="description">Enter your details below</p>
+      <div class="main_box">
+        <div class="circle">
+          <p class="arrow down"></p>
+        </div>
+        <div class="rhombus"></div>
+        <div class="main_area">
+          <div class="red_circle">
+            <p id="cross">+</p>
+          </div>
+          <p class="main_area_text">
+            Sit down with our experts to receive a free customized marketing
+            plan for your business + Learn How To Use Google and Facebook to get
+            5000% ROI or more
+          </p>
+          <form>
+            <input
+              type="text"
+              ppattern="^(\w\w+)\s(\w+)$"
+              name="Name"
+              placeholder="Your Name"
+              required
+            /><br /><br />
+            <input
+              type="tel"
+              pattern="[0-9]{10}"
+              name="Contacts"
+              placeholder="Contact Number: (095) 000 000 0000"
+              required
+            /><br /><br />
+            <input
+              type="text"
+              pattern="^(\(([^)]+)\))?[[:punct:]]?\p{Lu}+(?:[\s'-]?[\p{L}\d]+)+(\(([^)]+)\))*$"
+              name="Company"
+              placeholder="Company Name"
+              required
+            /><br /><br />
+            <button class="submit_btn" type="submit"><p>SUBMIT NOW</p></button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_box">
+        <p class="title_name">Get in touch</p>
+        <div class="footer_area">
+          <span class="social_networks" id="facebook"></span>
+          <span class="social_networks" id="twitter"></span>
+          <span class="social_networks" id="google"></span>
+          <span class="social_networks" id="linkdin"></span>
+        </div>
+        <p class="description footer_desc">
+          Subscribe to our newsletter to stay update with what is new
+        </p>
+        <form>
+          <input
+            class="subscribtion"
+            type="text"
+            pattern="/^[^\s@]+@[^\s@]+$/"
+            name="Email"
+            placeholder="Email Address"
+            required
+          /><br /><br />
+          <button class="subscribe_btn" type="subscribe">
+            <p>Subscribe</p>
+          </button>
+        </form>
+        <div class="copyright">
+          <p class="description">
+            Cssauthor.com &copy; 2014 All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
